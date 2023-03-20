@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Guide App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+</head>
+<body>
+    <h1>Upload your syllabus</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="syllabus" accept=".pdf">
+        <button type="submit">Submit</button>
+    </form>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

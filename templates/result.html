@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+</head>
+<body>
+    <h1>Result</h1>
+    <pre>{{ content }}</pre>
+    <a href="{{ url_for('index') }}">Back</a>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
