@@ -6,7 +6,7 @@ import openai
 app = Flask(__name__)
 
 # Configure your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "API KEY HERE"
 def generate_gpt3_response(syllabus_text):
     prompt = (
         f"You are a digital tutor, Please look for class topics within the syllabus provided, ignore entries that are not class topics, and please create a practice test using the topics and activities from the following syllabus content:\n\n"
